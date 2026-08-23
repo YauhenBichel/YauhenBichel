@@ -13,8 +13,6 @@ Polyglot backend: **Java, Go, Python, Node.js, C#/.NET**. Multi-cloud: **AWS, GC
 
 Core open-source contributor to **[OpenSRE](https://github.com/tracer-Cloud/opensre)** (Tracer's Apache-2.0 Python framework for **AI Site Reliability Engineering agents**, 10k+ ★).
 
-**[67 merged pull requests](https://github.com/tracer-Cloud/opensre/pulls?q=is%3Apr+author%3AYauhenBichel+is%3Amerged) · +65,900 / −18,900 lines**
-
 - **Benchmarking & evaluation environment for LLM agents** — AWS environment provisioned with Terraform, PR-time CI (tflint, tfsec, checkov), a Dockerized bench container pushed to ECR, an S3-backed dataset pipeline, and provenance capture for benchmark reports
 - **Large-scale architecture restructuring** into a `core / surfaces / integrations / tools` layout — broke 7+ import cycles with a **Tarjan strongly-connected-components cycle scanner** plus a CI guard enforcing import direction
 - **Unified LLM provider routing** into a single provider factory with a typed client interface and adapter registry; decomposed the `Session` god object and the agent harness into cohesive, testable packages
