@@ -1,6 +1,6 @@
 # Yauhen Bichel
 
-### Founding Staff Engineer · Individual Contributor · Co-Founder, MoleCare
+### Software Engineer · Individual Contributor · Co-Founder, MoleCare
 **London, England, United Kingdom**
 
 Software engineer with **14+ years** building **agentic AI applications, machine learning systems, big data pipelines, distributed backends and cloud infrastructure**. I build systems from scratch — from CNN model training and TensorFlow serving, through Kafka event pipelines and Spark/HDFS batch computation, to the Terraform that provisions all of it.
