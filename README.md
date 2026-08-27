@@ -1,6 +1,6 @@
 # Yauhen Bichel
 
-### Founding Staff Engineer · Co-Founder, MoleCare
+### Software Engineer / Platform Engineer
 **London, United Kingdom**
 
 > **Open to Staff / Principal / Lead engineering roles — AI & ML platforms,
