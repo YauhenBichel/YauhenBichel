@@ -1,6 +1,6 @@
 # Yauhen Bichel
 
-### Software Engineer / Platform Engineer
+### Software Engineer / Platform Engineer / ML Engineer and AI agentic contributor
 **London, United Kingdom**
 
 > **Open to Staff / Principal / Lead engineering roles — AI & ML platforms,
