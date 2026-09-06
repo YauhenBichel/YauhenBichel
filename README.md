@@ -48,3 +48,12 @@ dermoscopic datasets under-represent darker skin.
 None of it is a medical device. None of it diagnoses anything.
 
 ---
+
+## Contributors
+
+Thank you to everyone who has helped.
+
+<!-- readme: contributors,bots/- -start -->
+<!-- readme: contributors,bots/- -end -->
+
+Filled from GitHub commits (bots omitted). Live demo: [readme-contributors](https://github.com/YauhenBichel/readme-contributors#live-demo).
