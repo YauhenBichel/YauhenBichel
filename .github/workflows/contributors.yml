@@ -28,7 +28,25 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add README.md README readme.md .github/contributors.svg
+          # git add aborts on the first pathspec that matches nothing, and this
+          # repository has no file called README, so the step used to die here
+          # with "fatal: pathspec 'README' did not match any files" and exit 128
+          # before it could commit anything. Collect what exists, then add that.
+          #
+          # Written as an if rather than `[ -e x ] && git add x` because that
+          # form returns 1 when the file is absent, which under bash -e ends the
+          # step if it happens to be the last line.
+          paths=""
+          for candidate in README.md .github/contributors.svg .github/faces; do
+            if [ -e "$candidate" ]; then
+              paths="$paths $candidate"
+            fi
+          done
+          if [ -z "$paths" ]; then
+            echo "Nothing the wall writes to exists here."
+            exit 0
+          fi
+          git add -- $paths
           git diff --cached --quiet && exit 0
           git commit -m "docs: refresh README contributors"
           git push
