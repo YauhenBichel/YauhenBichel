@@ -43,7 +43,26 @@ explains the gap, and the open
 I would most like help with: performance across Fitzpatrick skin types is unmeasured, and
 dermoscopic datasets under-represent darker skin.
 
-**[molecare-webapp](https://github.com/MoleCare/molecare-webapp)** · **[molecare-desktop](https://github.com/MoleCare/molecare-desktop)** · **[skincare-qa](https://github.com/MoleCare/skincare-qa)** — the React front end, the Electron desktop build, and a LoRA-tuned educational Q&A model.
+**[molecare-desktop](https://github.com/MoleCare/molecare-desktop)** · **[molecare-skin-llm](https://github.com/MoleCare/molecare-skin-llm)** — the Electron desktop build, and a LoRA-tuned educational Q&A model behind a deterministic safety harness.
+
+## Tools I publish
+
+**[py-harness](https://github.com/YauhenBichel/py-harness)** — four jobs against a
+local model on your own machine: ask a question, write a test, fix a bug, add one
+small function. It only touches the folder you point it at.
+[![PyPI](https://img.shields.io/pypi/v/py-harness-cli.svg)](https://pypi.org/project/py-harness-cli/)
+
+```bash
+pip install py-harness-cli
+```
+
+**[merge-cheer](https://github.com/YauhenBichel/merge-cheer)** — a GitHub Action
+that comments a G-rated GIF when a pull request merges. No Giphy key, no secrets,
+and it ships its own loops so it works on a new repository with the default token.
+
+**[readme-contributors](https://github.com/YauhenBichel/readme-contributors)** — a
+GitHub Action that draws the contributors wall further down this page. Circular
+avatars, no table, bots omitted.
 
 None of it is a medical device. None of it diagnoses anything.
 
