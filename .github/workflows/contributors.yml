@@ -1,52 +1,25 @@
 name: Contributors
 
+# The wall lives in readme-contributors as a reusable workflow. This file used
+# to be a copy of it, carrying a `git add` that named a file this repository
+# does not have, so the step died at exit 128 before it could commit, and the
+# wall stayed empty.
+#
+# The wall is written straight to main after every merge, with no separate
+# pull request. main is protected, so it pushes through the write deploy key
+# stored as CONTRIBUTORS_DEPLOY_KEY; `secrets: inherit` hands it over.
+
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: "17 4 * * 0"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
 
 jobs:
-  readme:
-    if: github.actor != 'github-actions[bot]'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          persist-credentials: true
-
-      - uses: YauhenBichel/readme-contributors@dde1d84bb305e531a8f923263791b0767a6bdd7c # v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Push the list
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          # git add aborts on the first pathspec that matches nothing, and this
-          # repository has no file called README, so the step used to die here
-          # with "fatal: pathspec 'README' did not match any files" and exit 128
-          # before it could commit anything. Collect what exists, then add that.
-          #
-          # Written as an if rather than `[ -e x ] && git add x` because that
-          # form returns 1 when the file is absent, which under bash -e ends the
-          # step if it happens to be the last line.
-          paths=""
-          for candidate in README.md .github/contributors.svg .github/faces; do
-            if [ -e "$candidate" ]; then
-              paths="$paths $candidate"
-            fi
-          done
-          if [ -z "$paths" ]; then
-            echo "Nothing the wall writes to exists here."
-            exit 0
-          fi
-          git add -- $paths
-          git diff --cached --quiet && exit 0
-          git commit -m "docs: refresh README contributors"
-          git push
+  wall:
+    uses: YauhenBichel/readme-contributors/.github/workflows/wall.yml@2d1790d6a11795866916337238d212de87e06fad # v1.8.0
+    secrets: inherit
