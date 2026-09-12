@@ -7,6 +7,7 @@
 > data infrastructure and distributed backends. London or remote.**
 > [yauhen.bichel@gmail.com](mailto:yauhen.bichel@gmail.com) ·
 > [LinkedIn](https://www.linkedin.com/in/yauhen-bichel) ·
+> [Hugging Face](https://huggingface.co/YauhenBichel) ·
 > [Medium](https://medium.com/@yauhen.bichel)
 
 Software engineer with **14+ years** building agentic AI applications, ML systems,
@@ -65,6 +66,36 @@ GitHub Action that draws the contributors wall further down this page. Circular
 avatars, no table, bots omitted.
 
 None of it is a medical device. None of it diagnoses anything.
+
+## Also built
+
+**Local AI and robotics**
+
+- **[strix-halo-jax](https://github.com/YauhenBichel/strix-halo-jax)** — JAX and MuJoCo MJX on an AMD Ryzen AI MAX iGPU.
+- **[belarusian-tts](https://github.com/YauhenBichel/belarusian-tts)** — Self-hostable Belarusian text-to-speech.
+- **[humanoid-companion](https://github.com/YauhenBichel/humanoid-companion)** — A small humanoid robot that walks with a reinforcement-learning policy.
+
+**Infrastructure and tooling**
+
+- **[terraform-aws-parameter-store](https://github.com/YauhenBichel/terraform-aws-parameter-store)** — Terraform module for AWS Parameter Store.
+- **[terraform-aws-eventbridge-batch-trigger](https://github.com/YauhenBichel/terraform-aws-eventbridge-batch-trigger)** — Terraform module for EventBridge-triggered AWS Batch jobs.
+- **[terraform-aws-batch-job-revision](https://github.com/YauhenBichel/terraform-aws-batch-job-revision)** — Terraform module for AWS Batch job revisions.
+- **[github-action-terraform-output](https://github.com/YauhenBichel/github-action-terraform-output)** — GitHub Action that reads Terraform output.
+
+**Services and applications**
+
+- **[demo-openlr-mapbox-data](https://github.com/YauhenBichel/demo-openlr-mapbox-data)** — Decoding OpenLR location references against Mapbox data.
+- **[Services-with-Mesh-and-gRPC](https://github.com/YauhenBichel/Services-with-Mesh-and-gRPC)** — Microservices over gRPC behind a service mesh.
+- **[Text-to-image-RESTful-service](https://github.com/YauhenBichel/Text-to-image-RESTful-service)** — REST API for Stable Diffusion image generation.
+- **[Retry-with-resilience4j](https://github.com/YauhenBichel/Retry-with-resilience4j)** — Retry policies with resilience4j.
+- **[AudioPlayer](https://github.com/YauhenBichel/AudioPlayer)** — React Native audio player for iOS.
+
+## Contributions
+
+Over 1,000 merged pull requests across roughly 97 repositories, mostly on the projects
+above and in the [MoleCare](https://github.com/MoleCare) organisation. I also contribute
+to [OpenSRE](https://github.com/Tracer-Cloud/opensre), an Apache-2.0 open-source project
+for AI SRE agents.
 
 ---
 
