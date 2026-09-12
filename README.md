@@ -60,10 +60,13 @@ pip install py-harness-cli
 **[moe-fit](https://github.com/YauhenBichel/moe-fit)** — answers "will this
 mixture-of-experts model run on my machine, and how fast?" from the model's index,
 before downloading it. DeepSeek V3.1 is 405 GB, but only 11.4 GB of that is needed by
-every token, so it does run on a 128 GB box — at about half a token a second. You find
-that out in three seconds instead of after the download.
+every token, so it does run on a 128 GB box — at about a tenth of a token a second,
+which is an hour for a paragraph. You learn that in three seconds rather than after a
+405 GB download.
+[![PyPI](https://img.shields.io/pypi/v/moe-fit.svg)](https://pypi.org/project/moe-fit/)
 
 ```bash
+pip install moe-fit
 moefit plan <model.gguf or a URL to one>
 ```
 
