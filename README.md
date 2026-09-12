@@ -57,6 +57,16 @@ small function. It only touches the folder you point it at.
 pip install py-harness-cli
 ```
 
+**[moe-fit](https://github.com/YauhenBichel/moe-fit)** — answers "will this
+mixture-of-experts model run on my machine, and how fast?" from the model's index,
+before downloading it. DeepSeek V3.1 is 405 GB, but only 11.4 GB of that is needed by
+every token, so it does run on a 128 GB box — at about half a token a second. You find
+that out in three seconds instead of after the download.
+
+```bash
+moefit plan <model.gguf or a URL to one>
+```
+
 **[merge-cheer](https://github.com/YauhenBichel/merge-cheer)** — a GitHub Action
 that comments a G-rated GIF when a pull request merges. No Giphy key, no secrets,
 and it ships its own loops so it works on a new repository with the default token.
