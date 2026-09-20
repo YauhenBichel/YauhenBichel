@@ -3,6 +3,14 @@
 ### Software Engineer / Platform Engineer / ML Engineer and AI agentic contributor
 **London, United Kingdom**
 
+> **New: [yserver, my local LLM system](https://github.com/YauhenBichel/yserver-local-llm-system)**, described in full.
+> One small AMD computer with 128 GB of shared memory serves open models to Claude Code, my editor and my scripts.
+> The architecture, [ten flows with diagrams](https://github.com/YauhenBichel/yserver-local-llm-system/blob/main/docs/flows.md),
+> [the measured numbers](https://github.com/YauhenBichel/yserver-local-llm-system/blob/main/docs/numbers.md)
+> (0.64 s to the first token, 50 tokens per second, 132 requests with 0 failures), and
+> [seven lessons](https://github.com/YauhenBichel/yserver-local-llm-system/blob/main/docs/lessons.md),
+> most of which are not about models.
+
 > **Open to Staff / Principal / Lead engineering roles — AI & ML platforms,
 > data infrastructure and distributed backends. London or remote.**
 > [yauhen.bichel@gmail.com](mailto:yauhen.bichel@gmail.com) ·
@@ -84,6 +92,7 @@ None of it is a medical device. None of it diagnoses anything.
 
 **Local AI and robotics**
 
+- **[yserver-local-llm-system](https://github.com/YauhenBichel/yserver-local-llm-system)** — My local LLM system on one small computer: architecture, flows, numbers and lessons.
 - **[strix-halo-jax](https://github.com/YauhenBichel/strix-halo-jax)** — JAX and MuJoCo MJX on an AMD Ryzen AI MAX iGPU.
 - **[belarusian-tts](https://github.com/YauhenBichel/belarusian-tts)** — Self-hostable Belarusian text-to-speech.
 - **[humanoid-companion](https://github.com/YauhenBichel/humanoid-companion)** — A small humanoid robot that walks with a reinforcement-learning policy.
