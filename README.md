@@ -3,14 +3,6 @@
 ### Software Engineer / Platform Engineer / ML Engineer and AI agentic contributor
 **London, United Kingdom**
 
-> **New: [yserver, my local LLM system](https://github.com/YauhenBichel/yserver-local-llm-system)**, described in full.
-> One small AMD computer with 128 GB of shared memory serves open models to Claude Code, my editor and my scripts.
-> The architecture, [ten flows with diagrams](https://github.com/YauhenBichel/yserver-local-llm-system/blob/main/docs/flows.md),
-> [the measured numbers](https://github.com/YauhenBichel/yserver-local-llm-system/blob/main/docs/numbers.md)
-> (0.64 s to the first token, 50 tokens per second, 132 requests with 0 failures), and
-> [seven lessons](https://github.com/YauhenBichel/yserver-local-llm-system/blob/main/docs/lessons.md),
-> most of which are not about models.
-
 > **Open to Staff / Principal / Lead engineering roles — AI & ML platforms,
 > data infrastructure and distributed backends. London or remote.**
 > [yauhen.bichel@gmail.com](mailto:yauhen.bichel@gmail.com) ·
@@ -24,6 +16,18 @@ from scratch — from CNN training and TensorFlow serving, through Kafka event
 pipelines and Spark/HDFS batch computation, to the Terraform that provisions all of it.
 
 **Java · Go · Python · Node.js · C#/.NET** on **AWS · GCP · Azure**
+
+---
+
+> **[yserver, my local LLM system](https://github.com/YauhenBichel/yserver-local-llm-system)**, described in full.
+> One small AMD computer with 128 GB of shared memory serves open models to Claude Code, my editor and my scripts.
+> The architecture, [ten flows with diagrams](https://github.com/YauhenBichel/yserver-local-llm-system/blob/main/docs/flows.md),
+> [the measured numbers](https://github.com/YauhenBichel/yserver-local-llm-system/blob/main/docs/numbers.md)
+> (0.64 s to the first token, 50 tokens per second, 132 requests with 0 failures), and
+> [seven lessons](https://github.com/YauhenBichel/yserver-local-llm-system/blob/main/docs/lessons.md),
+> most of which are not about models.
+
+---
 
 Currently a core open-source contributor to [OpenSRE](https://github.com/tracer-Cloud/opensre)
 (Apache-2.0 framework for AI SRE agents, 10k+ ★) and co-founder of
