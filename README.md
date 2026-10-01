@@ -1,6 +1,6 @@
 # Yauhen Bichel
 
-### Staff Software Engineer · AI platforms, distributed backends, self-hosted LLM systems
+### Software Engineer · AI platforms, distributed backends, self-hosted LLM systems
 **London, United Kingdom**
 
 > **Open to Staff / Principal / Lead engineering roles — AI & ML platforms,
@@ -19,9 +19,8 @@ years of backend work came first — Kafka event pipelines, Spark batch jobs, Sp
 Python services, Terraform for AWS and Azure — and that is still where most of my
 judgement comes from.
 
-Today I am a **Staff Software Engineer and one of the main maintainers of
-[OpenSRE](https://github.com/tracer-Cloud/opensre)** (Apache-2.0 framework for AI SRE
-agents, 11k+ ★), where I own the agent runtime and the evaluation platform. I co-founded
+I am an open-source contributor to [OpenSRE](https://github.com/tracer-Cloud/opensre),
+an Apache-2.0 framework for AI SRE agents. I co-founded
 [MoleCare](https://molecare.co.uk), a skin-lesion monitoring app accepted onto the NHS
 Apps Library, and still run it.
 
@@ -140,9 +139,9 @@ agree across languages, and proves it. [Live demo](https://yauhenbichel.github.i
 ## Contributions
 
 Over 1,000 merged pull requests across roughly 97 repositories, mostly on the projects
-above and in the [MoleCare](https://github.com/MoleCare) organisation, plus 330 merged
-pull requests on [OpenSRE](https://github.com/Tracer-Cloud/opensre), where I am one of
-the main maintainers.
+above and in the [MoleCare](https://github.com/MoleCare) organisation. I also contribute
+to [OpenSRE](https://github.com/Tracer-Cloud/opensre), an Apache-2.0 open-source project
+for AI SRE agents.
 
 ---
 
