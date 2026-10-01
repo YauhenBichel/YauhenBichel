@@ -19,6 +19,10 @@ years of backend work came first — Kafka event pipelines, Spark batch jobs, Sp
 Python services, Terraform for AWS and Azure — and that is still where most of my
 judgement comes from.
 
+Most of what I publish is about running language models yourself: local LLM inference on
+one GPU, an LLM gateway that speaks the OpenAI and Anthropic APIs, agent harnesses, MCP
+servers, request tracing, and the operations work that keeps a home server alive.
+
 I am an open-source contributor to [OpenSRE](https://github.com/tracer-Cloud/opensre),
 an Apache-2.0 framework for AI SRE agents. I co-founded
 [MoleCare](https://molecare.co.uk), a skin-lesion monitoring app accepted onto the NHS
@@ -33,7 +37,8 @@ Apps Library, and still run it.
 One small AMD computer with 128 GB of shared memory serves open models to Claude Code,
 my editor and my scripts. A gateway speaking the OpenAI and Anthropic APIs routes each
 request to a role-specific model — coding, reasoning, judge, vision, OCR, speech — behind
-a queue, with tracing on every hop. Everything below runs on it or was built for it.
+a queue, with tracing on every hop. Everything below runs on it or was built for it, and
+the repositories are grouped under the [yserver topic](https://github.com/topics/yserver).
 
 **[yserver-local-llm-system](https://github.com/YauhenBichel/yserver-local-llm-system)** — the system described in full:
 the architecture, [ten flows with diagrams](https://github.com/YauhenBichel/yserver-local-llm-system/blob/main/docs/flows.md),
@@ -80,7 +85,11 @@ On [Medium](https://medium.com/@yauhen.bichel), mostly about running this system
 
 ---
 
-## Open source I maintain
+## MoleCare: open source I maintain
+
+[MoleCare](https://github.com/MoleCare) is the skin-health app I co-founded: people photograph
+moles and skin lesions and track how they change over time. These are the parts of the
+platform published as open source, all Apache-2.0.
 
 **[molecare-mcp](https://github.com/MoleCare/molecare-mcp)** — MCP server giving Claude
 and other clients educational dermatology knowledge: lesion terminology, ABCDE criteria,
@@ -101,6 +110,20 @@ I would most like help with: performance across Fitzpatrick skin types is unmeas
 dermoscopic datasets under-represent darker skin.
 
 **[molecare-desktop](https://github.com/MoleCare/molecare-desktop)** · **[molecare-skin-llm](https://github.com/MoleCare/molecare-skin-llm)** — the Electron desktop build, and a LoRA-tuned educational Q&A model behind a deterministic safety harness.
+
+**[privacy-gate-llm](https://github.com/MoleCare/privacy-gate-llm)** — keeps sensitive prompts
+on your own machine: a small classifier on top of bge-m3 embeddings that catches health data,
+credentials and personal details written as plain English, which regex and entity tools miss.
+A second gate for LLM routers and guardrails.
+[Try the demo](https://huggingface.co/spaces/YauhenBichel/privacy-gate-llm-demo).
+
+**Components for app developers**, taken out of the MoleCare apps and useful in any app:
+
+- **[react-photo-compare](https://github.com/MoleCare/react-photo-compare)** — two photos side by side with one shared zoom and pan, for React. [Live demo](https://molecare.github.io/react-photo-compare/).
+- **[react-body-map](https://github.com/MoleCare/react-body-map)** — an accessible front and back body map for React. [Live demo](https://molecare.github.io/react-body-map/).
+- **[rn-photo-quality](https://github.com/MoleCare/rn-photo-quality)** — on-device photo quality checks for React Native and Expo: exposure, lighting, sharpness.
+- **[rn-scale-reference](https://github.com/MoleCare/rn-scale-reference)** — turns pixels into millimetres using a coin or sticker of known size in the photo.
+- **[rn-health-data](https://github.com/MoleCare/rn-health-data)** — one read-only React Native API over Apple Health and Android Health Connect.
 
 None of it is a medical device. None of it diagnoses anything.
 
