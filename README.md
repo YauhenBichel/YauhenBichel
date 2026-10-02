@@ -83,6 +83,12 @@ On [Medium](https://medium.com/@yauhen.bichel), mostly about running this system
 - [Know your resources in an AWS account and feel calm about changes](https://medium.com/@yauhen.bichel/know-your-resources-in-aws-account-and-feel-calm-with-changes-in-your-aws-account-1b77c521ace2) — July 2025
 - [Risks in AI development: Google's SAIF risk map](https://medium.com/@yauhen.bichel/risks-in-ai-development-google-saif-risk-map-1d59d2d3dfa8) — November 2024
 
+## Talks
+
+**[One small computer, eight models](https://github.com/YauhenBichel/yserver-local-llm-system/tree/main/talk)** —
+what running my own LLM system at home taught me, and why most of it was not about models. The slides, a
+three-minute video and the script are in the repository. I am glad to give it at a meetup in London.
+
 ---
 
 ## MoleCare: open source I maintain
