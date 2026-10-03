@@ -50,6 +50,7 @@ most of which are not about models.
 *Operating it*
 
 - **[llm-hops](https://github.com/YauhenBichel/llm-hops)** — see every hop of a request through a local LLM system: a tracing server, a live flow map and a waterfall per request. One static binary. Built after the 40-second answer whose time went nowhere I could see.
+- **[server-durability](https://github.com/YauhenBichel/server-durability)** — can this server lose data? It checks the data, the backup and the restore: a backup on the same disk as the data, a snapshot that is missing a database, a backup that was never restore-tested. It also makes consistent copies of live SQLite databases and runs a restore test. One static Go binary and two small Go libraries; the measurements behind it are a [public dataset](https://huggingface.co/datasets/YauhenBichel/yserver-durability-experiments).
 - **[silent-failures](https://github.com/YauhenBichel/silent-failures)** — small read-only checks for the failures that stay silent: a hardware watchdog that never loads, a nightly job that fails every night, firmware months behind upstream, a box that froze and nobody was told.
 - **[homerunner](https://github.com/YauhenBichel/homerunner)** — run your private repositories' CI on a machine you already own. One command per repo, and it refuses to register against a public repo, where anyone's pull request would run code on your machine.
 - **[strix-halo-jax](https://github.com/YauhenBichel/strix-halo-jax)** — JAX and MuJoCo MJX on an AMD Ryzen AI MAX iGPU from pip wheels, no system ROCm, with a hang-safe check that tells you which wheel set works.
@@ -57,6 +58,7 @@ most of which are not about models.
 *Choosing and using models*
 
 - **[moe-fit](https://github.com/YauhenBichel/moe-fit)** — will this mixture-of-experts model run on my machine, and how fast? Answered from the model's index before the download. [![PyPI](https://img.shields.io/pypi/v/moe-fit.svg)](https://pypi.org/project/moe-fit/)
+- **[ai-models-comparison](https://github.com/YauhenBichel/ai-models-comparison)** — which new open-weights models fit your machine? It reads your GPU and system memory, finds the GGUF builds of each new model, and says: fits the GPU, fits in memory, low-bit only, or too big, and which are worth trying. Web page, command line, HTTP API and MCP server.
 - **[py-harness](https://github.com/YauhenBichel/py-harness)** — a local 8B model behind a typed one-action-per-turn harness: ask a question, write a test, fix a bug, add one small function. Write jail, AST-validated patches, and it only touches the folder you point it at. [![PyPI](https://img.shields.io/pypi/v/py-harness-cli.svg)](https://pypi.org/project/py-harness-cli/)
 
 *Speech and language, served the same way*
