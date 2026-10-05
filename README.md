@@ -145,6 +145,11 @@ and it ships its own loops so it works on a new repository with the default toke
 GitHub Action that draws the contributors wall further down this page. Circular
 avatars, no table, bots omitted.
 
+**[when-free](https://github.com/YauhenBichel/when-free)** — which days and times am I
+free? Reads your Google, Outlook and iCloud calendar feeds, and the message asking, and prints
+the slots you can offer. Also an MCP server, so an assistant answers from your real calendar.
+No account, no API key, Python standard library only, and it never writes to a calendar.
+
 **[regex-parity](https://github.com/YauhenBichel/regex-parity)** — the same regex gives
 different answers in JavaScript, Python and Java on real-world text. This makes the rules
 agree across languages, and proves it. [Live demo](https://yauhenbichel.github.io/regex-parity/).
