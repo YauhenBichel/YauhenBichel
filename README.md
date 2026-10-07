@@ -162,7 +162,6 @@ agree across languages, and proves it. [Live demo](https://yauhenbichel.github.i
 - **[terraform-aws-eventbridge-batch-trigger](https://github.com/YauhenBichel/terraform-aws-eventbridge-batch-trigger)** — Terraform module for EventBridge-triggered AWS Batch jobs.
 - **[terraform-aws-batch-job-revision](https://github.com/YauhenBichel/terraform-aws-batch-job-revision)** — Terraform module for AWS Batch job revisions.
 - **[github-action-terraform-output](https://github.com/YauhenBichel/github-action-terraform-output)** — GitHub Action that reads Terraform output.
-- **[tracer-sre-rl](https://github.com/YauhenBichel/tracer-sre-rl)** — reinforcement learning for AI SRE agents: training LLM-based agents to diagnose and remediate production incidents.
 
 **Services and applications**
 
@@ -170,7 +169,6 @@ agree across languages, and proves it. [Live demo](https://yauhenbichel.github.i
 - **[Services-with-Mesh-and-gRPC](https://github.com/YauhenBichel/Services-with-Mesh-and-gRPC)** — Microservices over gRPC behind a service mesh.
 - **[Text-to-image-RESTful-service](https://github.com/YauhenBichel/Text-to-image-RESTful-service)** — REST API for Stable Diffusion image generation.
 - **[Retry-with-resilience4j](https://github.com/YauhenBichel/Retry-with-resilience4j)** — Retry policies with resilience4j.
-- **[AudioPlayer](https://github.com/YauhenBichel/AudioPlayer)** — React Native audio player for iOS.
 
 ## Contributions
 
