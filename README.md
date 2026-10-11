@@ -65,7 +65,7 @@ most of which are not about models.
 
 - **[belarusian-tts](https://github.com/YauhenBichel/belarusian-tts)** — natural, self-hostable Belarusian text-to-speech behind an OpenAI-style `/v1/audio/speech`.
 - **[belarusian-asr](https://github.com/YauhenBichel/belarusian-asr)** — Belarusian speech recognition on the CPU: an OpenAI- and whisper.cpp-compatible server with a FLEURS benchmark.
-- **[belarusian-verse](https://github.com/YauhenBichel/belarusian-verse)** — stress, rhyme, rhythm and agreement checking for Belarusian, built on the Grammar Database. The songs it helps write are on [TikTok](https://www.tiktok.com/@y6574694).
+- **[belarusian-verse](https://github.com/YauhenBichel/belarusian-verse)** — stress, rhyme, rhythm and agreement checking for Belarusian, built on the Grammar Database. The songs it helps write are on [TikTok](https://www.tiktok.com/@y6574694); the first single, «Chary Nochy» by Ahni Trasy, is on [Spotify](https://open.spotify.com/album/1RG2w6mCmm4GkbOHMQNUse), [Apple Music](https://music.apple.com/us/album/chary-nochy-single/6814043095) and [Amazon Music](https://music.amazon.com/albums/B0HKDR329Y).
 
 *Things with a face*
 
@@ -149,6 +149,9 @@ avatars, no table, bots omitted.
 free? Reads your Google, Outlook and iCloud calendar feeds, and the message asking, and prints
 the slots you can offer. Also an MCP server, so an assistant answers from your real calendar.
 No account, no API key, Python standard library only, and it never writes to a calendar.
+Listed in the [MCP registry](https://registry.modelcontextprotocol.io), on
+[mcprush](https://mcprush.com/yauhenbichel/when-free-mcp) and in the
+[M8ven Trust Index](https://m8ven.ai/mcp/yauhenbichel/when-free).
 
 **[regex-parity](https://github.com/YauhenBichel/regex-parity)** — the same regex gives
 different answers in JavaScript, Python and Java on real-world text. This makes the rules
