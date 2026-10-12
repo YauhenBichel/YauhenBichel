@@ -34,11 +34,16 @@ Apps Library, and still run it.
 
 ## yserver: my local LLM system
 
-One small AMD computer with 128 GB of shared memory serves open models to Claude Code,
+A server with a built-in GPU and 128 GB of shared memory serves open models to Claude Code,
 my editor and my scripts. A gateway speaking the OpenAI and Anthropic APIs routes each
 request to a role-specific model — coding, reasoning, judge, vision, OCR, speech — behind
-a queue, with tracing on every hop. Everything below runs on it or was built for it, and
-the repositories are grouped under the [yserver topic](https://github.com/topics/yserver).
+a queue, with tracing on every hop. Next to the models runs a one-node **k3s** cluster:
+kustomize manifests with a policy check before every apply, quotas and limit ranges per
+namespace, default-deny network policies, pod-security admission, an in-cluster registry,
+a test environment for MoleCare, self-hosted GitHub Actions runners and a knowledge-graph
+service. Two live maps show the cluster and the LLM system as they run (`livemap-k8s`,
+`livemap-llm`; private for now, a release is planned). Everything below runs on it or was
+built for it, and the repositories are grouped under the [yserver topic](https://github.com/topics/yserver).
 
 **[yserver-local-llm-system](https://github.com/YauhenBichel/yserver-local-llm-system)** — the system described in full:
 the architecture, [ten flows with diagrams](https://github.com/YauhenBichel/yserver-local-llm-system/blob/main/docs/flows.md),
