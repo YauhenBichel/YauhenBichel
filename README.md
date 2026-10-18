@@ -30,6 +30,8 @@ Apps Library, and still run it.
 
 **Python · Java · Go · TypeScript · C#/.NET** on **AWS · GCP · Azure** · Terraform certified
 
+🏅 **Recognition:** invited by GitHub's open source team to the **GitHub Maintainer Advisory Network** (2026), an invitation-only group of open-source maintainers who preview new GitHub features and give feedback directly to the teams building them.
+
 ---
 
 ## yserver: my local LLM system
