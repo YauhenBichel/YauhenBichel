@@ -111,6 +111,7 @@ and other clients educational dermatology knowledge: lesion terminology, ABCDE c
 SNOMED CT to ICD-10 mapping. Runs with no credentials.
 [![npm](https://img.shields.io/npm/v/molecare-mcp)](https://www.npmjs.com/package/molecare-mcp)
 [![downloads](https://img.shields.io/npm/dw/molecare-mcp)](https://www.npmjs.com/package/molecare-mcp)
+[![listed on mcprush](https://img.shields.io/badge/mcprush-listed-6f42c1)](https://mcprush.com/molecare/molecare-mcp)
 
 ```bash
 npx -y molecare-mcp
