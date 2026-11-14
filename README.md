@@ -145,6 +145,12 @@ None of it is a medical device. None of it diagnoses anything.
 
 ## Tools I publish
 
+**[context-handoff](https://github.com/YauhenBichel/context-handoff)** — a Claude Code
+plugin that shows what each turn costs and keeps sessions small. Past a size or cost limit,
+Claude writes a handoff note; after `/clear`, a fresh session continues from it. Python
+standard library only, and on PyPI as a command for cost reports.
+[![PyPI](https://img.shields.io/pypi/v/context-handoff.svg)](https://pypi.org/project/context-handoff/)
+
 **[merge-cheer](https://github.com/YauhenBichel/merge-cheer)** — a GitHub Action
 that comments a G-rated GIF when a pull request merges. No Giphy key, no secrets,
 and it ships its own loops so it works on a new repository with the default token.
